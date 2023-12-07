@@ -1,4 +1,4 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# PWA Tech Talk
 
 To start the slide show:
 
@@ -6,6 +6,5 @@ To start the slide show:
 - `npm run dev`
 - visit http://localhost:3030
 
-Edit the [slides.md](./slides.md) to see the changes.
+PDF version available [here](https://ik.imagekit.io/TCF/slides-export.pdf?updatedAt=1701954223919)
 
-Learn more about Slidev on [documentations](https://sli.dev/).
