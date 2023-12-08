@@ -213,7 +213,7 @@ image: https://ik.imagekit.io/TCF/frame%20(1).png?updatedAt=1701949679994
 
 - While you can roll your own push notification service it can be a bit of a headache to handle all the permissions and keys. You need to check if the device has disabled permissions and update your database etc.
 - It's easier to use an existing service like firebase FCM, OneSignal, MagicBell etc.
-- Scan the QR code for a nice example of a PWA w/ notifications
+- Scan the QR code for a nice example of a PWA w/ notifications. Or visit [https://webpushtest.com/](https://webpushtest.com/)
 
 ---
 layout: two-cols
@@ -249,6 +249,20 @@ layout: two-cols
   ]
 }
 ```
+---
+layout: image-right
+image: https://developer.chrome.com/static/docs/workbox/workbox_480.png
+---
+# Workbox
+
+_[next-pwa](https://github.com/shadowwalker/next-pwa#readme)_
+
+There is a bunch of packages to help speed up development. This package next-pwa seems to be well liked within the Next community
+
+_[Workbox](https://developer.chrome.com/docs/workbox)_
+
+Workbox seems to be the standard to use from google. next-pwa is built on top of it also
+
 
 ---
 layout: image-right
@@ -259,6 +273,7 @@ image: https://ik.imagekit.io/TCF/lighthouse.png?updatedAt=1701953913664
 - You can download PWAs on Mac and Windows also!
 - Not all browsers support it however
 - Googles developer tool Lighthouse let's you debug your PWA
+- Using tools like next-pwa and Workbox make it easier to have higher PWA scores
 
 ---
 
